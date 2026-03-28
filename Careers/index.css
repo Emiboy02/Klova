@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+/* body{
+    padding: 20px;
+} */
+
+nav{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    border-bottom: 2px solid rgb(202, 198, 198);
+    border-bottom-style: 2px  solid;
+}
+
+nav img{
+    margin-left: 10px;
+}
+
+.hero{
+    max-width: 400px;
+    margin: auto;
+}
+
+.hero .careers{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.hero .p-sec{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.position-div{
+    width: 350px;
+    height: 48px;
+    background-color: #FF4337;
+    border: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.hero img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.hero .our-work{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero2{
+    max-width: 400px;
+    margin: auto;
+}
+
+.hero2 .open{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.hero2 .operate{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.senior-dev{
+    max-width: 400px;
+    margin: auto;   
+}
+
+.toronto{
+    width: 350px;
+    height: 228px;
+    background-color: #EFF1F7;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.full-time{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.web{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 19px;
+}
+
+.card{
+   padding-left: 19px; 
+   padding-top: 5px;
+   font-size: 14px;
+   color: grey;
+}
+
+.time{
+    width: 294px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.hero3{
+    max-width: 400px;
+    margin: auto;
+}
+
+.build{
+    width: 350px;
+    height: 482px;
+    background-color: #1C070F;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.build .klova-logo{
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.today{
+    width: 302px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.commit1{
+    width: 302px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-us{
+    width: 302px;
+    height: 56px;
+    background-color: #FF4337;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.services{
+    width: 302px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.newsletter{
+    width: 350px;
+    height: 198px;
+    background-color: #FFECEB;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.newsletter h1{
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.newsletter p{
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.klova{
+    width: 350px;
+    height: 198px;
+    color: grey;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.klova p{
+    padding-top: 10px;
+}
+
+.about{
+    width: 350px;
+    height: 198px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+
+.about p{
+    color: grey;
+}
+
+.icons{
+    width: 350px;
+    height: 198px;
+    margin: 0 auto;
+    margin-top: 580px;
+    margin-bottom: 500px;
+}
+
+
+.icons p{
+    margin-top: 30px;
+    color: grey;
+}
+
+input{
+    width: 25vh;
+    height: 5vh;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* max-width: 50vh;
+    max-height: 10vh; */
+}
+
+
+
+.submit{
+    width: 15vh;
+    height: 5vh;
+    border: none;
+    background-color: #FF4337;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    /* position: absolute;
+    color: white; */
+   
+}
+
+.action{
+    margin-top: 30px;
+    padding: 5px;
+    display: flex;
+}
+
+input:focus{
+    padding: 5px;
+}
+
+input::placeholder{
+    padding: 20px;
+}
+
+.a-container{
+    display: flex;
+    gap: 20px;
+}
+
+.a-container a{
+    text-decoration: none;
+    color: aqua;
+}
+
