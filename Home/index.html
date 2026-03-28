@@ -3,7 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>KLOVAX</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div id="logo">
+        <img src="/Klova/images/Klova-logo.png" alt="Klova Logo" />
+      </div>
+
+      <div id="nav-links">
+        <ul id="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#">
+              <img src="/Klova/images/close.png" alt="" />
+            </a>
+          </li>
+          <li><a href="/Klova/Home/index.html">Home</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li>
+            <a href="#"
+              ><button id="contact-btn">
+                <img src="/Klova/images/flash.png" alt="Flash-logo" />
+                <p>Contact</p>
+              </button></a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li class="hideOnMobile">
+            <a href="/Klova/Home/index.html">Home</a>
+          </li>
+          <li class="hideOnMobile"><a href="#">Careers</a></li>
+          <li class="hideOnMobile"><a href="#">Blogs</a></li>
+          <li class="hideOnMobile"><a href="#">FAQ</a></li>
+          <li class="hideOnMobile">
+            <a href="#"
+              ><button id="contact-btn">
+                <img src="/Klova/images/flash.png" alt="Flash-logo" />
+                <p>Contact</p>
+              </button></a
+            >
+          </li>
+          <li class="hamburger" onclick="showSidebar()">
+            <a href="#">
+              <img src="/Klova/images/menu.png" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="first-section">
+      <div id="intro">
+        <h1>
+          Simply put, the best
+          <span style="color: #ff4337">sass template</span> in the market
+        </h1>
+        <br /><br />
+
+        <p>
+          We are committed to going beyond issue resolution to becoming your
+          partner in the growing and smooth running of your business.
+        </p>
+        <br /><br />
+
+        <button id="get-template-btn">
+          <img src="/Klova/images/Get-Template icon.png" alt="" />
+          <p>Get Template</p></button
+        ><br />
+
+        <button id="learn-more-btn">
+          <p>Learn More</p>
+          <img src="/Klova/images/Learn-More icon.png" alt="" /></button
+        ><br />
+
+        <img id="block-image" src="/Klova/images/block.png" alt="" />
+      </div>
+      <br /><br />
+
+      <p id="partner-p">We’re proud to partner with the best</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
