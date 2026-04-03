@@ -5,9 +5,9 @@
     font-family: 'Poppins', 'sans-serif';
 }
 
-/* body{
-    padding: 20px;
-} */
+ul{
+    display: none;
+}
 
 nav{
     width: 100%;
@@ -61,8 +61,11 @@ nav img{
 .hero .our-work{
     margin-top: 10px;
     margin-left: 20px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 20px; 
+}
+
+.play{
+    display: none;
 }
 
 .hero2{
@@ -134,8 +137,8 @@ nav img{
 }
 
 .hero3{
-    max-width: 400px;
     margin: auto;
+    padding: 20px;
 }
 
 .build{
@@ -148,11 +151,16 @@ nav img{
     color: white;
 }
 
-.build .klova-logo{
+.klova-logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.build img{
     width: 74px;
     height: 74px;
-    margin: 0 auto;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .today{
@@ -160,7 +168,7 @@ nav img{
     font-size: 15px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .commit1{
@@ -170,14 +178,15 @@ nav img{
     margin-top: 20px;
 }
 
+
 .contact-us{
     width: 302px;
     height: 56px;
     background-color: #FF4337;
     border: none;
-    border-radius: 10px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    border-radius: 10px;
     margin-top: 20px;
     color: white;
     font-size: 17px;
@@ -188,9 +197,9 @@ nav img{
     width: 302px;
     height: 56px;
     border: none;
-    border-radius: 10px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    border-radius: 10px;
     margin-top: 10px;
     font-size: 15px;
     cursor: pointer;
@@ -271,15 +280,22 @@ input{
 
 
 .submit{
-    width: 15vh;
+    width: 12vh;
     height: 5vh;
     border: none;
     background-color: #FF4337;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    /* position: absolute;
-    color: white; */
-   
+    /* position: absolute; */
+    color: white;
+   display: flex;
+   align-items: center;
+   /* justify-self: center; */
+   /* align-items: center; */
+}
+
+a{
+    text-decoration: none;
 }
 
 .action{
@@ -306,3 +322,368 @@ input::placeholder{
     color: aqua;
 }
 
+.flag{
+    display: none;
+}
+
+@media (min-width: 700px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        width: 100%;
+    }
+
+    nav img{
+        padding-left: 10px;
+    }
+
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        gap: 30px;
+    }
+
+    button{
+        border: none;
+        background-color: #FF4337;
+        color: white;
+        width: 129px;
+        height: 48px;
+        padding: 10px;
+        display: flex;
+        gap: 5px;
+        justify-items: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .hero{
+        /* margin-left: 50px; */
+        max-width: 1200px;
+        padding: 20px;
+    }
+
+    .hero .careers{
+    margin-top: 30px;
+    margin-left: 0;
+    }
+    .p-sec{
+        width: 633px;
+    }
+
+    .position-div{
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .hero img {
+        width: 100%;
+        /* height: 540px; */
+        margin: 0;
+        margin-top: 70px;
+        padding: 20px;
+    }
+
+    .our-work{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .play{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+        background-color: #FF4337;
+    }
+
+    .hero .p-sec{
+        margin-top: 30px;
+        margin-left: 0;
+        color: grey;
+    }
+
+    .hero2{
+        max-width: 1200px;
+        padding: 20px;
+    }
+    
+    .hero2 .open{
+    margin-top: 30px;
+    margin-left: 0;
+    }
+
+    .hero2 .operate{
+    margin-top: 10px;
+    margin-left: 0;
+    color: grey;
+    }
+
+    .senior-dev{
+    max-width: 100%;
+    margin: auto;   
+    }
+
+.toronto{
+    width: 100%;
+    /* height: 228px; */
+    background-color: #EFF1F7;
+    margin: 0 ;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    }
+
+    .full-time{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 20px;
+    display: none;
+    }
+
+    
+
+.web{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 19px;
+    }
+
+.card{
+   width: 530px;
+   padding-left: 19px; 
+   padding-top: 5px;
+   font-size: 14px;
+   color: grey;
+    }
+
+.time{
+    width: 97%;
+    /* width: 900px; */
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    /* padding-top: 40px; */
+    }
+
+    .flag{
+        display: flex;
+        gap: 5px;
+    }
+
+    .calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .hero3{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    }
+
+    .build{
+    width: 100%;
+    height: 700px;
+    background-color: #1C070F;
+    margin: 0;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: white;
+    }
+
+
+    .klova-logo{
+    display: flex;
+    justify-content: center;
+    }
+
+    .build img{
+    margin: 0;
+    width: 140px;
+    height: 140px;
+    margin-top: 100px;
+    }
+
+
+    .today{
+    width: 672px;
+    font-size: 1.6rem;
+    }
+
+    .commit1{
+    width: 75vh;
+    height: 64px;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    }
+
+    .our-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    }
+
+    .contact-us{
+    width: 302px;
+    height: 56px;
+    background-color: #FF4337;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 0;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    }
+
+    .services{
+    width: 302px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0;
+    margin-top: 0;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    }
+
+    .hero-4{
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .newsletter{
+    width: 100%;
+    height: 116px;
+    background-color: #FFECEB;
+    margin: 0 ;
+    margin-top: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    }
+
+    .newsletter h1{
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    }
+
+    .newsletter p{
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+     input{
+        width: 40vh;
+        height: 7vh;
+        border: none;
+        outline: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        /* max-width: 50vh;
+        max-height: 10vh; */
+    }
+
+
+
+    .submit{
+        width: 15vh;
+        height: 7vh;
+        border: none;
+        background-color: #FF4337;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+
+        /* position: absolute; */
+        color: white;
+    
+    }
+
+    .action{
+        margin-top: 30px;
+        padding: 5px;
+        display: flex;
+    }
+
+    input:focus{
+        padding: 5px;
+    }
+
+    input::placeholder{
+        padding: 20px;
+    }
+
+    .klova{
+        margin: 0;
+    }
+
+    .logoss{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        margin-top: 30px;
+        font-size: 1.6vh;
+        color: black;
+    }
+
+    .about{
+        display: flex;
+        gap: 50px;
+        margin: 0;
+    }
+
+    .icons{
+    width: 100%;
+    height: 198px;
+    margin: 0 ;
+    margin-top: 100px;
+    margin-bottom: 500px;
+    padding: 20px;
+    }
+
+
+    .icons p{
+        margin-top: 0;
+        color: grey;
+    }
+
+}
