@@ -257,7 +257,7 @@ nav img{
     height: 198px;
     margin: 0 auto;
     margin-top: 580px;
-    margin-bottom: 500px;
+    margin-bottom: 20px;
 }
 
 
@@ -676,7 +676,7 @@ input::placeholder{
     height: 198px;
     margin: 0 ;
     margin-top: 100px;
-    margin-bottom: 500px;
+    margin-bottom: 20px;
     padding: 20px;
     }
 
